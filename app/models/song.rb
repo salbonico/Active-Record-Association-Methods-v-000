@@ -14,6 +14,6 @@ class Song < ActiveRecord::Base
 
   self.artist = drake
   drake.songs << self
-    binding.pry
+  return drake 
   end
 end
